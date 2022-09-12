@@ -1,4 +1,8 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+body,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
+  color: black;}
+h1, h2 {font-family: monospace;}
+h2 {color: #0e634c;}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #757575;}
@@ -6,3 +10,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.bttn {
+  background-color: #84ad93;
+  color: white;
+  border: 4px solid transparent;}
+.bttn:hover {
+  background-color: #84ad93;
+  color: #2b5246;
+  border-color: #2b5246;}
+#c1 {
+  background-color: #84ad93;
+  color: white;}
